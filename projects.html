@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Personal Site</title>
+    <title>Projects | Personal Site</title>
     <link rel="stylesheet" href="styling/styles.css">
 </head>
 <body>
@@ -12,30 +12,66 @@
         <div class="nav-name">
             Hamza Ben ali
         </div>
-        <nav class="navbar">
-            <div class="nav-links">
-                <a href="whoami.html">Who Am I</a>
-                <a href="projects.html">Projects</a>
-                <a href="blog.html">Blog</a>
-            </div>
-        </nav>
+        <div class="nav-links">
+            <a href="whoami.html">Who Am I</a>
+            <a href="projects.html">Projects</a>
+            <a href="blog.html">Blog</a>
+        </div>
     </nav>
 </header>
 
 <div class="container">
-    <nav class="vertical-side-bar">
+    <aside class="vertical-side-bar">
         <a class="logo" href="index.html">Virtuo</a>
 
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="whoami.html">Who Am I</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
-    </nav>
+        <a href="#">Contact</a>
+        <a href="#">Mijn CV</a>
+        <a href="#">Links</a>
+        <a href="#">Trophies</a>
+        <a href="#">Quests</a>
+
+    </aside>
+
+    <main class="content">
+        <section class="projects-grid">
+            <input type="radio" name="projects" id="project1" class="project-toggle">
+            <label for="project1" class="project-card">
+                <h2>project 1</h2>
+                <p> hier komt een kleine bechrijving</p>
+                <div class="project-details">
+                    <p>
+                        grotere gedetaillerdere uitleg
+                    </p>
+                </div>
+            </label>
+            
+            <input type="radio" name="projects" id="project2" class="project-toggle">
+            
+            <label for="project2" class="project-card">
+                <h2>project 2</h2>
+                <p> hier komt een kleine bechrijving</p>
+                <div class="project-details">
+                    <p>
+                        grotere gedetailleerdere uitleg
+                    </p>
+                </div>
+            </label>
+            <input type="radio" name="projects" id="project3" class="project-toggle">
+
+            <label for="project3" class="project-card">
+                <h2>project 3</h2>
+                <p> hier komt een kleine bechrijving</p>
+                <div class="project-details">
+                    <p>
+                        grotere gedetaillerdere uitleg
+                    </p>
+                </div>
+            </label>
+        </section>
+
+    </main>
+
 </div>
-
-
 
 </body>
 </html>
