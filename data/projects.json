@@ -1,0 +1,29 @@
+﻿[
+  {
+    "id": 1,
+    "title": "Auction Platform",
+    "description": "An interactive online auction platform.",
+    "details": "Developed using ASP.NET Core, React, SignalR and SQL Server. Users can participate in live auctions with real-time price updates.",
+    "technologies": ["C#", "React", "SQL Server", "SignalR"],
+    "github": "https://github.com/",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Dashboard",
+    "description": "A dashboard that predicts sales using machine learning.",
+    "details": "Developed a forecasting system using Python and SARIMA models to analyze sales trends and predict future performance.",
+    "technologies": ["Python", "Machine Learning", "Power BI"],
+    "github": "https://github.com/",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "title": "Portfolio Website",
+    "description": "My personal software engineering portfolio.",
+    "details": "A responsive portfolio website built using HTML, CSS and JavaScript with dynamically generated project cards.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/",
+    "image": ""
+  }
+]

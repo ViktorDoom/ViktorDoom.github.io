@@ -1,0 +1,198 @@
+﻿<!--deze pagina is gegeneert door ai om deliverable 2 te simulteren 
+alles wat door ai is gedaan wordt duidelijk aangegeven 
+ook wordt het in een aparte branch gezet-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Hamza Ben Ali</title>
+
+    <link rel="stylesheet" href="styling/styles.css">
+</head>
+
+<body>
+<header>
+    <nav class="top-navbar" aria-label="Main navigation">
+        <div class="nav-name">
+            <a href="index.html">Hamza Ben Ali</a>
+        </div>
+
+        <div class="nav-links">
+            <a href="whoami.html">Who Am I</a>
+            <a href="projects.html">Projects</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </nav>
+</header>
+<div class = containter>
+    <aside class="vertical-side-bar">
+        <a class="logo" href="index.html">Virtuo</a>
+    
+        
+            <a href="index.html">Home</a>
+            <a href="whoami.html">Who Am I</a>
+            <a href="projects.html">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html" class="active" aria-current="page">Contact</a>
+    </aside>
+    
+
+
+
+
+
+<main class="content">
+
+    <section class="contact-section" aria-labelledby="contact-heading">
+
+        <header class="contact-header">
+            <h1 id="contact-heading">Get in touch</h1>
+
+            <p>
+                Have a question, an idea, or want to discuss a project?
+                Send me a message below.
+            </p>
+        </header>
+
+
+        <form id="contact-form" class="contact-form" novalidate>
+
+            <div class="form-field">
+
+                <label for="name">
+                    Name
+                    <span aria-hidden="true">*</span>
+                </label>
+
+                <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        minlength="2"
+                        maxlength="100"
+                        autocomplete="name"
+                        aria-describedby="name-error"
+                >
+
+                <p
+                        id="name-error"
+                        class="error-message"
+                        aria-live="polite">
+                </p>
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label for="email">
+                    Email
+                    <span aria-hidden="true">*</span>
+                </label>
+
+                <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        maxlength="254"
+                        autocomplete="email"
+                        aria-describedby="email-error"
+                >
+
+                <p
+                        id="email-error"
+                        class="error-message"
+                        aria-live="polite">
+                </p>
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label for="subject">
+                    Subject
+                    <span aria-hidden="true">*</span>
+                </label>
+
+                <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required
+                        minlength="3"
+                        maxlength="150"
+                        aria-describedby="subject-error"
+                >
+
+                <p
+                        id="subject-error"
+                        class="error-message"
+                        aria-live="polite">
+                </p>
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label for="message">
+                    Message
+                    <span aria-hidden="true">*</span>
+                </label>
+
+                <textarea
+                        id="message"
+                        name="message"
+                        rows="8"
+                        required
+                        minlength="10"
+                        maxlength="2000"
+                        aria-describedby="message-error"
+                ></textarea>
+
+                <p
+                        id="message-error"
+                        class="error-message"
+                        aria-live="polite">
+                </p>
+
+            </div>
+
+
+            <div class="form-actions">
+
+                <button type="submit">
+                    Send message
+                </button>
+
+                <p class="required-message">
+                    <span aria-hidden="true">*</span>
+                    Required fields
+                </p>
+
+            </div>
+
+
+            <p
+                    id="form-status"
+                    class="form-status"
+                    role="status"
+                    aria-live="polite">
+            </p>
+
+        </form>
+
+    </section>
+
+</main>
+</div>
+
+<script src="scripts/portfolio.contact.js"></script>
+<script src="scripts/portfolio.weather.js" defer></script>
+</body>
+</html>
